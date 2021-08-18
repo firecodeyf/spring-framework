@@ -1,6 +1,14 @@
-# <img src="src/docs/asciidoc/images/spring-framework.png" width="80" height="80"> Spring Framework [![Build Status](https://ci.spring.io/api/v1/teams/spring-framework/pipelines/spring-framework-5.2.x/jobs/build/badge)](https://ci.spring.io/teams/spring-framework/pipelines/spring-framework-5.2.x?groups=Build")
+# <img src="src/docs/asciidoc/images/spring-framework.png" width="80" height="80"> Spring Framework v5.2.16.RELEASE 源码阅读 [![Build Status](https://ci.spring.io/api/v1/teams/spring-framework/pipelines/spring-framework-5.2.x/jobs/build/badge)](https://ci.spring.io/teams/spring-framework/pipelines/spring-framework-5.2.x?groups=Build")
 
 **源码阅读 read**
+## 阅读源码版本
+v5.2.16.RELEASE
+
+## IDE环境
+IDEA && gradle5.6.4, 
+*现在的spring使用gradle 6.0以后的版本的话无法编译通过*
+<br/>
+<br/>
 
 This is the home of the Spring Framework: the foundation for all [Spring projects](https://spring.io/projects). Collectively the Spring Framework and the family of Spring projects are often referred to simply as "Spring". 
 
