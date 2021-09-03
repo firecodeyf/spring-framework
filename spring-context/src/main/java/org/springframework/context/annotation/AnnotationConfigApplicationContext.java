@@ -59,6 +59,7 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
 
 
 	/**
+	 * 默认无参构造函数， 子类构造前先会调用父类 GenericApplicationContext 的 无参构造函数
 	 * Create a new AnnotationConfigApplicationContext that needs to be populated
 	 * through {@link #register} calls and then manually {@linkplain #refresh refreshed}.
 	 */
@@ -84,8 +85,11 @@ public class AnnotationConfigApplicationContext extends GenericApplicationContex
 	 * {@link Configuration @Configuration} classes
 	 */
 	public AnnotationConfigApplicationContext(Class<?>... componentClasses) {
+		// 调用构造函数
 		this();
+		// 注册配置类
 		register(componentClasses);
+		// 刷新IOC容器接口
 		refresh();
 	}
 
